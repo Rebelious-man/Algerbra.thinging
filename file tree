@@ -1,0 +1,5 @@
+demon-proxy/
+├─ worker.js                    # Cloudflare Worker (proxy)
+├─ wrangler.toml               # Worker config
+└─ web/
+   └─ demon-search-proxy-loader.html   # Single-file UI (HTML+CSS+JS inline)
