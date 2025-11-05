@@ -1,0 +1,3 @@
+wrangler secret put PROXY_KEY
+wrangler publish
+# Client must send:  x-proxy-key: <your secret>
